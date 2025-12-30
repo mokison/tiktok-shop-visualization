@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TikTok Shop US头部商家沟通会</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/v4-shims.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#000000',
+                        secondary: '#FE2C55',
+                        accent: '#FF0050',
+                        neutral: '#F5F5F5',
+                        'neutral-dark': '#E0E0E0'
+                    },
+                    fontFamily: {
+                        inter: ['Inter', 'sans-serif'],
+                    },
+                },
+            }
+        }
+    </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+            .content-auto {
+                content-visibility: auto;
+            }
+            .text-shadow {
+                text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            }
+            .card-hover {
+                transition: all 0.3s ease;
+            }
+            .card-hover:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 10px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04);
+            }
+        }
+    </style>
+</head>
+<body class="font-inter bg-gray-50">
+    <!-- 顶部导航栏 -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0 flex items-center">
+                        <i class="fab fa-tiktok text-2xl text-black mr-3"></i>
+                        <span class="text-xl font-bold text-gray-900">TikTok Shop US</span>
+                    </div>
+                    <div class="hidden sm:ml-6 sm:flex space-x-8">
+                        <a href="#overview" class="text-gray-700 hover:text-secondary px-3 py-2 text-sm font-medium transition-colors duration-200">概览</a>
+                        <a href="#sam-team" class="text-gray-700 hover:text-secondary px-3 py-2 text-sm font-medium transition-colors duration-200">SAM团队</a>
+                        <a href="#common-issues" class="text-gray-700 hover:text-secondary px-3 py-2 text-sm font-medium transition-colors duration-200">常见问题</a>
+                        <a href="#features" class="text-gray-700 hover:text-secondary px-3 py-2 text-sm font-medium transition-colors duration-200">功能介绍</a>
+                        <a href="#feedback" class="text-gray-700 hover:text-secondary px-3 py-2 text-sm font-medium transition-colors duration-200">问题反馈</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 英雄区域 -->
+    <section class="bg-gradient-to-r from-black to-gray-900 text-white py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold mb-6 text-shadow">
+                2025 TikTok Shop US头部商家沟通会
+            </h1>
+            <p class="text-xl md:text-2xl text-gray-300 mb-8">
+                携手共进，共创电商新未来
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <button onclick="scrollToSection('overview')" class="bg-secondary hover:bg-accent text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105">
+                    <i class="fas fa-arrow-down mr-2"></i>开始浏览
+                </button>
+                <button onclick="window.open('https://bytedance.sg.larkoffice.com/share/base/form/shrlg4eIPuROAE1CuJsfbwfyOig', '_blank')" class="bg-transparent border-2 border-white hover:bg-white hover:text-black text-white px-8 py-3 rounded-full font-semibold transition-all duration-300">
+                    <i class="fas fa-comment-dots mr-2"></i>问题反馈
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 概览部分 -->
+    <section id="overview" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">会议概览</h2>
+                <p class="text-xl text-gray-600">本次沟通会为TikTok Shop US头部商家提供政策解读和问题解答</p>
+            </div>
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-neutral rounded-xl p-6 card-hover">
+                    <div class="text-secondary text-4xl mb-4">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">SAM团队服务</h3>
+                    <p class="text-gray-600">专业的客户服务团队，致力于提高商家履约和服务能力</p>
+                </div>
+                
+                <div class="bg-neutral rounded-xl p-6 card-hover">
+                    <div class="text-secondary text-4xl mb-4">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">问题解决方案</h3>
+                    <p class="text-gray-600">提供履约罚单申诉指引和店铺体验分提升建议</p>
+                </div>
+                
+                <div class="bg-neutral rounded-xl p-6 card-hover">
+                    <div class="text-secondary text-4xl mb-4">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-3">数据驱动优化</h3>
+                    <p class="text-gray-600">通过VoC分析帮助商家了解客户反馈，优化商品表现</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SAM团队部分 -->
+    <section id="sam-team" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">SAM团队介绍</h2>
+                <p class="text-xl text-gray-600">专业的客户服务团队，为您的店铺运营保驾护航</p>
+            </div>
+            
+            <div class="bg-white rounded-2xl shadow-lg p-8 mb-8">
+                <h3 class="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+                    <i class="fas fa-briefcase text-secondary mr-3"></i>
+                    SAM团队工作职责与范围
+                </h3>
+                
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div>
+                        <h4 class="text-lg font-semibold text-gray-900 mb-4">主要职责</h4>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                                <span>维护店铺绩效数据，关注店铺体验分</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                                <span>监控店铺差评率、商品负反馈</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                                <span>处理各类罚单问题</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-green-500 mt-1 mr-3"></i>
+                                <span>分析影响店铺绩效的原因并提供解决方案</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div>
+                        <h4 class="text-lg font-semibold text-gray-900 mb-4">服务承诺</h4>
+                        <ul class="space-y-3">
+                            <li class="flex items-start">
+                                <i class="fas fa-handshake text-blue-500 mt-1 mr-3"></i>
+                                <span>作为商家与TikTok Shop的双向沟通桥梁</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-handshake text-blue-500 mt-1 mr-3"></i>
+                                <span>通过多方渠道为商家解决问题</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-handshake text-blue-500 mt-1 mr-3"></i>
+                                <span>全方面提升店铺运营绩效</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-handshake text-blue-500 mt-1 mr-3"></i>
+                                <span>持续改善商家在TikTok平台的体验</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="bg-white rounded-2xl shadow-lg p-8">
+                <h3 class="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+                    <i class="fas fa-clock text-secondary mr-3"></i>
+                    SAM头部商家服务助手工作时间
+                </h3>
+                
+                <div class="grid md:grid-cols-3 gap-8">
+                    <div class="bg-neutral rounded-xl p-6">
+                        <h4 class="text-lg font-semibold text-gray-900 mb-4">常规工作时间</h4>
+                        <ul class="space-y-2 text-gray-600">
+                            <li class="flex justify-between">
+                                <span>工作日（周一至周五）</span>
+                                <span class="font-medium">10:00 - 19:00</span>
+                            </li>
+                            <li class="flex justify-between">
+                                <span>周六/日</span>
+                                <span class="font-medium text-red-500">休息</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="bg-neutral rounded-xl p-6">
+                        <h4 class="text-lg font-semibold text-gray-900 mb-4">元旦假期特别说明</h4>
+                        <ul class="space-y-2 text-gray-600">
+                            <li class="flex justify-between">
+                                <span>1月1日 - 1月2日</span>
+                                <span class="font-medium">正常在线</span>
+                            </li>
+                            <li class="flex justify-between">
+                                <span>1月4日（周日）</span>
+                                <span class="font-medium text-red-500">休息</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="bg-neutral rounded-xl p-6">
+                        <h4 class="text-lg font-semibold text-gray-900 mb-4">特殊情况通知</h4>
+                        <p class="text-gray-600">
+                            若遇请假、国内调休等特殊情况，小助手将通过"更换头像 + 更新备注"的方式告知恢复上班时间，请各位商家留意通知。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 常见问题部分 -->
+    <section id="common-issues" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">常见问题解答</h2>
+                <p class="text-xl text-gray-600">履约罚单相关问题及解决方案</p>
+            </div>
+            
+            <div class="space-y-8">
+                <!-- 问题标签 -->
+                <div class="flex flex-wrap gap-3 mb-8">
+                    <button class="issue-tab active bg-secondary text-white px-4 py-2 rounded-full text-sm font-medium" data-target="nbfr">
+                        非买家责任退货退款率
+                    </button>
+                    <button class="issue-tab bg-gray-200 hover:bg-gray-300 text-gray-700 px-4 py-2 rounded-full text-sm font-medium" data-target="dwell-rate">
+                        滞留订单率
+                    </button>
+                    <button class="issue-tab bg-gray-200 hover:bg-gray-300 text-gray-700 px-4 py-2 rounded-full text-sm font-medium" data-target="sfcr">
+                        商责取消率
+                    </button>
+                    <button class="issue-tab bg-gray-200 hover:bg-gray-300 text-gray-700 px-4 py-2 rounded-full text-sm font-medium" data-target="otd">
+                        按时送达率
+                    </button>
+                </div>
+                
+                <!-- 问题内容 -->
+                <div class="issue-content active" id="nbfr">
+                    <div class="bg-neutral rounded-2xl p-8">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-6">非买家责任退货退款率 (NBFR)</h3>
+                        
+                        <div class="grid md:grid-cols-2 gap-8 mb-8">
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-900 mb-4">问题描述</h4>
+                                <p class="text-gray-600 mb-4">
+                                    由于商家或物流合作方问题（如包裹损坏）导致买家发起退款或退货申请的订单占比。
+                                </p>
+                                <p class="text-gray-600">
+                                    常见缺陷包括：商品缺失、发错货、商品破损，以及/或包裹显示"已送达"但客户实际未收到。
+                                </p>
+                            </div>
+                            
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-900 mb-4">特别注意</h4>
+                                <div class="bg-red-50 border-l-4 border-red-500 p-4">
+                                    <p class="text-red-700 font-medium">4PL 商家注意事项：</p>
+                                    <p class="text-red-700 mt-2">
+                                        仅"包裹已标记为已送达但客户未收到（Delivered but not received）"的售后情况，不纳入 NBFR 落罚计算；其余情况（漏发商品、错发商品、商品破损）均会被计入考核。
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <h4 class="text-lg font-semibold text-gray-900 mb-4">改善建议</h4>
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div class="bg-green-50 border border-green-200 rounded-lg p-4">
+                                <h5 class="font-medium text-green-800 mb-2">物流管理</h5>
+                                <ul class="space-y-2 text-green-700">
+                                    <li class="flex items-start">
+                                        <i class="fas fa-truck text-green-600 mt-1 mr-2"></i>
+                                        <span>关注仓库打包、出货流程</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-box text-green-600 mt-1 mr-2"></i>
+                                        <span>重视商品包装，易碎品需使用防护材料</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-sync-alt text-green-600 mt-1 mr-2"></i>
+                                        <span>定期核对实际库存与商品Listing</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            <div class="bg-blue-50 border border-blue-200 rounded-lg p-4">
+                                <h5 class="font-medium text-blue-800 mb-2">客户沟通</h5>
+                                <ul class="space-y-2 text-blue-700">
+                                    <li class="flex items-start">
+                                        <i class="fas fa-comment text-blue-600 mt-1 mr-2"></i>
+                                        <span>订单妥投后主动告知买家售后服务内容</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-video text-blue-600 mt-1 mr-2"></i>
+                                        <span>定期开展直播，讲解售后处理流程</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-info-circle text-blue-600 mt-1 mr-2"></i>
+                                        <span>分包裹发货时主动告知买家</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="issue-content hidden" id="dwell-rate">
+                    <div class="bg-neutral rounded-2xl p-8">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-6">滞留订单率 (Dwell Rate)</h3>
+                        
+                        <div class="grid md:grid-cols-2 gap-8 mb-8">
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-900 mb-4">定义</h4>
+                                <p class="text-gray-600">
+                                    指处于"待揽收"状态但超过2个工作日仍未更新物流扫描记录以及未更新至"运输中"状态的商家发货订单占比（FBT订单除外）。
+                                </p>
+                            </div>
+                            
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-900 mb-4">影响</h4>
+                                <div class="bg-orange-50 border-l-4 border-orange-500 p-4">
+                                    <p class="text-orange-700">
+                                        高滞留订单率会影响店铺绩效表现，建议商家密切关注订单滞留率指标。
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <h4 class="text-lg font-semibold text-gray-900 mb-4">改善建议</h4>
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div class="bg-purple-50 border border-purple-200 rounded-lg p-4">
+                                <h5 class="font-medium text-purple-800 mb-2">订单处理</h5>
+                                <ul class="space-y-2 text-purple-700">
+                                    <li class="flex items-start">
+                                        <i class="fas fa-clock text-purple-600 mt-1 mr-2"></i>
+                                        <span>及时处理订单，确保2个工作日内发货</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-barcode text-purple-600 mt-1 mr-2"></i>
+                                        <span>确保物流单号及时上传和更新</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-check-square text-purple-600 mt-1 mr-2"></i>
+                                        <span>定期检查待揽收订单状态</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            <div class="bg-indigo-50 border border-indigo-200 rounded-lg p-4">
+                                <h5 class="font-medium text-indigo-800 mb-2">物流合作</h5>
+                                <ul class="space-y-2 text-indigo-700">
+                                    <li class="flex items-start">
+                                        <i class="fas fa-handshake text-indigo-600 mt-1 mr-2"></i>
+                                        <span>选择可靠的物流合作伙伴</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-exclamation-triangle text-indigo-600 mt-1 mr-2"></i>
+                                        <span>建立物流异常处理机制</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-chart-line text-indigo-600 mt-1 mr-2"></i>
+                                        <span>监控物流时效表现</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="issue-content hidden" id="sfcr">
+                    <div class="bg-neutral rounded-2xl p-8">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-6">商责取消率 (SFCR)</h3>
+                        
+                        <div class="grid md:grid-cols-2 gap-8 mb-8">
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-900 mb-4">定义</h4>
+                                <p class="text-gray-600">
+                                    因商责（如缺货、延迟发货或价格错误）被取消的订单占比。计算方式：商责取消订单数除以同期未取消订单总数。
+                                </p>
+                                <p class="text-gray-600 mt-2">
+                                    不包括TikTok履约模式（FBT）物流服务相关的问题订单。
+                                </p>
+                            </div>
+                            
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-900 mb-4">影响因素</h4>
+                                <ul class="space-y-2 text-gray-600">
+                                    <li class="flex items-start">
+                                        <i class="fas fa-times-circle text-red-500 mt-1 mr-2"></i>
+                                        <span>商品缺货或库存不足</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-times-circle text-red-500 mt-1 mr-2"></i>
+                                        <span>价格设置错误</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-times-circle text-red-500 mt-1 mr-2"></i>
+                                        <span>无法按时发货</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <h4 class="text-lg font-semibold text-gray-900 mb-4">改善建议</h4>
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div class="bg-yellow-50 border border-yellow-200 rounded-lg p-4">
+                                <h5 class="font-medium text-yellow-800 mb-2">库存管理</h5>
+                                <ul class="space-y-2 text-yellow-700">
+                                    <li class="flex items-start">
+                                        <i class="fas fa-warehouse text-yellow-600 mt-1 mr-2"></i>
+                                        <span>定期更新库存信息，避免超卖</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-bell text-yellow-600 mt-1 mr-2"></i>
+                                        <span>设置库存预警机制</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-sync text-yellow-600 mt-1 mr-2"></i>
+                                        <span>及时下架缺货商品</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            <div class="bg-teal-50 border border-teal-200 rounded-lg p-4">
+                                <h5 class="font-medium text-teal-800 mb-2">订单处理</h5>
+                                <ul class="space-y-2 text-teal-700">
+                                    <li class="flex items-start">
+                                        <i class="fas fa-clock text-teal-600 mt-1 mr-2"></i>
+                                        <span>合理设置发货时效</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-calculator text-teal-600 mt-1 mr-2"></i>
+                                        <span>仔细核对价格信息</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-comments text-teal-600 mt-1 mr-2"></i>
+                                        <span>及时与买家沟通订单状态</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="issue-content hidden" id="otd">
+                    <div class="bg-neutral rounded-2xl p-8">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-6">按时送达率 (On-Time Delivery Rate)</h3>
+                        
+                        <div class="grid md:grid-cols-2 gap-8 mb-8">
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-900 mb-4">定义</h4>
+                                <p class="text-gray-600">
+                                    按预定"送达截止日期"成功送达的订单占预期送达总订单数的百分比。
+                                </p>
+                                <p class="text-gray-600 mt-2">
+                                    TikTok履约模式（FBT）和Express物流订单不纳入按时送达率计算。
+                                </p>
+                            </div>
+                            
+                            <div>
+                                <h4 class="text-lg font-semibold text-gray-900 mb-4">重要性</h4>
+                                <div class="bg-green-50 border-l-4 border-green-500 p-4">
+                                    <p class="text-green-700">
+                                        按时送达率是影响店铺体验分的重要指标，直接关系到买家满意度和复购率。
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <h4 class="text-lg font-semibold text-gray-900 mb-4">改善建议</h4>
+                        <div class="grid md:grid-cols-2 gap-6">
+                            <div class="bg-blue-50 border border-blue-200 rounded-lg p-4">
+                                <h5 class="font-medium text-blue-800 mb-2">物流优化</h5>
+                                <ul class="space-y-2 text-blue-700">
+                                    <li class="flex items-start">
+                                        <i class="fas fa-truck-fast text-blue-600 mt-1 mr-2"></i>
+                                        <span>选择时效稳定的物流服务商</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-map-marker-alt text-blue-600 mt-1 mr-2"></i>
+                                        <span>合理设置不同地区的发货时效</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-barcode text-blue-600 mt-1 mr-2"></i>
+                                        <span>及时上传物流单号并更新状态</span>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            <div class="bg-purple-50 border border-purple-200 rounded-lg p-4">
+                                <h5 class="font-medium text-purple-800 mb-2">订单管理</h5>
+                                <ul class="space-y-2 text-purple-700">
+                                    <li class="flex items-start">
+                                        <i class="fas fa-clock text-purple-600 mt-1 mr-2"></i>
+                                        <span>在承诺时效内完成发货</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-exclamation-triangle text-purple-600 mt-1 mr-2"></i>
+                                        <span>建立物流异常监控机制</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-comment-alt text-purple-600 mt-1 mr-2"></i>
+                                        <span>主动告知买家物流延迟情况</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 功能介绍部分 -->
+    <section id="features" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">功能介绍</h2>
+                <p class="text-xl text-gray-600">了解TikTok Shop提供的强大工具和功能</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- 店铺体验分申诉功能 -->
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+                    <div class="bg-gradient-to-r from-secondary to-accent p-6 text-white">
+                        <h3 class="text-2xl font-bold mb-2">店铺体验分(SPS)申诉功能</h3>
+                        <p class="opacity-90">直接在商家中心提交体验分相关指标申诉</p>
+                    </div>
+                    <div class="p-6">
+                        <div class="space-y-4">
+                            <div>
+                                <h4 class="font-semibold text-gray-900 mb-2">功能说明</h4>
+                                <p class="text-gray-600">
+                                    如果商家认为某项指标受到非自身可控因素影响，或者有证据证明相关问题责任不在商家责任方，即可直接在商家中心自主发起申诉。
+                                </p>
+                            </div>
+                            
+                            <div>
+                                <h4 class="font-semibold text-gray-900 mb-2">访问路径</h4>
+                                <div class="bg-gray-50 border border-gray-200 rounded-lg p-3 text-sm text-gray-700">
+                                    <code>登录商家中心 > 账户健康 > 店铺体验分</code>
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <h4 class="font-semibold text-gray-900 mb-2">上线时间</h4>
+                                <div class="bg-blue-50 border border-blue-200 rounded-lg p-3">
+                                    <p class="text-blue-700 font-medium">分批次上线，预计在2026年3月底全面开放给所有商家</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- VoC功能 -->
+                <div class="bg-white rounded-2xl shadow-lg overflow-hidden">
+                    <div class="bg-gradient-to-r from-blue-600 to-indigo-600 p-6 text-white">
+                        <h3 class="text-2xl font-bold mb-2">VoC（Voice of Customer）</h3>
+                        <p class="opacity-90">了解客户反馈，优化商品表现</p>
+                    </div>
+                    <div class="p-6">
+                        <div class="space-y-4">
+                            <div>
+                                <h4 class="font-semibold text-gray-900 mb-2">状态分类</h4>
+                                <div class="grid grid-cols-2 gap-2">
+                                    <div class="bg-red-50 border border-red-200 rounded-lg p-3 text-center">
+                                        <p class="text-red-700 font-medium">存在风险</p>
+                                        <p class="text-xs text-red-600 mt-1">明显高于基准</p>
+                                    </div>
+                                    <div class="bg-orange-50 border border-orange-200 rounded-lg p-3 text-center">
+                                        <p class="text-orange-700 font-medium">需要关注</p>
+                                        <p class="text-xs text-orange-600 mt-1">略高于基准</p>
+                                    </div>
+                                    <div class="bg-yellow-50 border border-yellow-200 rounded-lg p-3 text-center">
+                                        <p class="text-yellow-700 font-medium">市场平均</p>
+                                        <p class="text-xs text-yellow-600 mt-1">与基准持平</p>
+                                    </div>
+                                    <div class="bg-green-50 border border-green-200 rounded-lg p-3 text-center">
+                                        <p class="text-green-700 font-medium">低于平均</p>
+                                        <p class="text-xs text-green-600 mt-1">低于基准</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <h4 class="font-semibold text-gray-900 mb-2">数据说明</h4>
+                                <ul class="space-y-2 text-gray-600 text-sm">
+                                    <li class="flex items-start">
+                                        <i class="fas fa-calendar-alt text-blue-500 mt-1 mr-2"></i>
+                                        <span>所有关于商品VoC状态的数据从10月16日起开始更新及计算</span>
+                                    </li>
+                                    <li class="flex items-start">
+                                        <i class="fas fa-chart-bar text-blue-500 mt-1 mr-2"></i>
+                                        <span>当数据量不足以支撑可靠统计判断时，状态显示为"–"</span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 问题反馈部分 -->
+    <section id="feedback" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">问题反馈</h2>
+                <p class="text-xl text-gray-600">您的反馈对我们很重要</p>
+            </div>
+            
+            <div class="bg-gradient-to-r from-gray-900 to-black rounded-2xl p-8 text-white">
+                <div class="grid md:grid-cols-2 gap-8 items-center">
+                    <div>
+                        <h3 class="text-2xl font-bold mb-4">有问题？请告诉我们</h3>
+                        <p class="text-gray-300 mb-6">
+                            若您有非本次会议内容相关的政策疑问、产品建议，可填写表单反馈。会后我们会对所有反馈进行统一梳理，由SAM经理及US头部商家服务助手，通过飞书群与您直接对接。
+                        </p>
+                        <ul class="space-y-3 text-gray-300">
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-400 mt-1 mr-3"></i>
+                                <span>全程跟进问题解决进度</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-400 mt-1 mr-3"></i>
+                                <span>确保您的需求切实落地</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check text-green-400 mt-1 mr-3"></i>
+                                <span>专业团队为您服务</span>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="text-center">
+                        <button onclick="window.open('https://bytedance.sg.larkoffice.com/share/base/form/shrlg4eIPuROAE1CuJsfbwfyOig', '_blank')" class="bg-secondary hover:bg-accent text-white px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
+                            <i class="fas fa-paper-plane mr-2"></i>
+                            提交反馈表单
+                        </button>
+                        <p class="text-gray-400 mt-4 text-sm">
+                            点击按钮打开反馈表单
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 联系方式 -->
+            <div class="mt-12 grid md:grid-cols-3 gap-8">
+                <div class="bg-neutral rounded-xl p-6 text-center">
+                    <div class="text-secondary text-4xl mb-4">
+                        <i class="fas fa-headset"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2">SAM头商服务小助手</h3>
+                    <p class="text-gray-600 text-sm">
+                        解答TT Shipping和FBT政策类问题
+                    </p>
+                </div>
+                
+                <div class="bg-neutral rounded-xl p-6 text-center">
+                    <div class="text-secondary text-4xl mb-4">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2">商家大学</h3>
+                    <p class="text-gray-600 text-sm">
+                        <a href="https://seller-us.tiktok.com/university" class="text-secondary hover:underline">https://seller-us.tiktok.com/university</a>
+                    </p>
+                </div>
+                
+                <div class="bg-neutral rounded-xl p-6 text-center">
+                    <div class="text-secondary text-4xl mb-4">
+                        <i class="fas fa-question-circle"></i>
+                    </div>
+                    <h3 class="text-lg font-semibold text-gray-900 mb-2">其他问题</h3>
+                    <p class="text-gray-600 text-sm">
+                        请参考相关文档联系对应团队
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-4 gap-8">
+                <div>
+                    <div class="flex items-center mb-4">
+                        <i class="fab fa-tiktok text-2xl mr-3"></i>
+                        <span class="text-xl font-bold">TikTok Shop US</span>
+                    </div>
+                    <p class="text-gray-400 text-sm">
+                        携手头部商家，共创电商新未来
+                    </p>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">快速链接</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="#overview" class="hover:text-white transition-colors">概览</a></li>
+                        <li><a href="#sam-team" class="hover:text-white transition-colors">SAM团队</a></li>
+                        <li><a href="#common-issues" class="hover:text-white transition-colors">常见问题</a></li>
+                        <li><a href="#features" class="hover:text-white transition-colors">功能介绍</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">资源中心</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li><a href="https://seller-us.tiktok.com/university" class="hover:text-white transition-colors">商家大学</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">政策文档</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">帮助中心</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="text-lg font-semibold mb-4">联系我们</h3>
+                    <ul class="space-y-2 text-gray-400">
+                        <li class="flex items-center">
+                            <i class="fas fa-envelope mr-2"></i>
+                            <span>sam-support@tiktokshop.com</span>
+                        </li>
+                        <li class="flex items-center">
+                            <i class="fas fa-clock mr-2"></i>
+                            <span>工作日 10:00-19:00</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-500 text-sm">
+                <p>© 2025 TikTok Shop US. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // 平滑滚动
+        function scrollToSection(sectionId) {
+            document.getElementById(sectionId).scrollIntoView({
+                behavior: 'smooth'
+            });
+        }
+
+        // 导航栏滚动效果
+        window.addEventListener('scroll', function() {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 100) {
+                nav.classList.add('bg-white/95', 'backdrop-blur-sm');
+                nav.classList.remove('bg-white');
+            } else {
+                nav.classList.add('bg-white');
+                nav.classList.remove('bg-white/95', 'backdrop-blur-sm');
+            }
+        });
+
+        // 问题标签切换
+        document.querySelectorAll('.issue-tab').forEach(tab => {
+            tab.addEventListener('click', function() {
+                // 移除所有标签的active类
+                document.querySelectorAll('.issue-tab').forEach(t => {
+                    t.classList.remove('active', 'bg-secondary', 'text-white');
+                    t.classList.add('bg-gray-200', 'text-gray-700');
+                });
+                
+                // 添加当前标签的active类
+                this.classList.add('active', 'bg-secondary', 'text-white');
+                this.classList.remove('bg-gray-200', 'text-gray-700');
+                
+                // 隐藏所有内容
+                document.querySelectorAll('.issue-content').forEach(content => {
+                    content.classList.add('hidden');
+                    content.classList.remove('active');
+                });
+                
+                // 显示当前内容
+                const target = this.getAttribute('data-target');
+                const content = document.getElementById(target);
+                content.classList.remove('hidden');
+                content.classList.add('active');
+            });
+        });
+
+        // 导航链接点击事件
+        document.querySelectorAll('nav a').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href').substring(1);
+                scrollToSection(targetId);
+            });
+        });
+
+        // 初始化页面
+        document.addEventListener('DOMContentLoaded', function() {
+            // 显示第一个问题标签
+            document.querySelector('.issue-tab').click();
+        });
+    </script>
+</body>
+</html>
